@@ -15,16 +15,39 @@ public class SpeakAndSpell {
 
 	public static void main(String[] args) {
 		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
-
+		speak("Please spell, squirrelled");
 		// 2. Catch the user's answer in a String
-
+		String answer=JOptionPane.showInputDialog("How do you spell this word?");
 		// 3. If the user spelled the word correctly, speak "correct"
-
+		if(answer.equals("squirrelled")){
+		speak("correct");
+		JOptionPane.showMessageDialog(null,"correct!");
+		}
+		else{
+		speak("wrong!");
+		JOptionPane.showMessageDialog(null, "incorrect =(");
+		speak("It is correctly spelled S Q U I R R E L L E D");
+		}
+		speak("Please say how many q there are");
+		speak("QQQQQQQQQQQQQQQQQQQQQQQ");
+		String qqq=JOptionPane.showInputDialog("How many q s are there?");
+		if(qqq.equals("23")){
+		speak("correct");
+		JOptionPane.showMessageDialog(null,"correct!");
+		}
+		else{
+		speak("wrong!");
+		JOptionPane.showMessageDialog(null, "incorrect =(");
+		speak("There are 23");
+			}
+		}
+		
+		
 		// 4. Otherwise say "wrong"
 
 		// 5. repeat the process for other words
 		
-	}
+	
 
 	static void speak(String words) {
 		try {
