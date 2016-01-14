@@ -2,7 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="/Users/league/Google Drive/league-jars/robot.jar"/>
 	<classpathentry kind="lib" path="/Users/league/Google Drive/league-jars/TeachingKidsProgramming - unicorn.jar"/>
+=======
+	<classpathentry kind="lib" path="/Users/League/Google Drive/league-jars/robot.jar"/>
+>>>>>>> jointheleague/master
 	<classpathentry kind="output" path="bin"/>
 </classpath>
